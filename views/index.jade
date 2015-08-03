@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Express Quest
+  p welcome nerd, type in some usernames
+  
+  form
+  p
+    input(type="text", name="name")
+  p
+    input(type="submit", value='Search')
+  p
+    input(type='submit', value='Detach/Attach')
+  
+  
